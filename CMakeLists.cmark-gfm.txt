@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(cmark-gfm NONE)
+include(ExternalProject)
+ExternalProject_Add(cmark-gfm
+    GIT_REPOSITORY    https://github.com/github/cmark-gfm.git
+    PREFIX            "${CMAKE_CURRENT_BINARY_DIR}/cmark-gfm"
+    CMAKE_ARGS        "-DCMAKE_INSTALL_PREFIX=${CMAKE_SOURCE_DIR}/install"
+)
