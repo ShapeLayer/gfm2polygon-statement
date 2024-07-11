@@ -11,20 +11,6 @@ This project depends on [cmark-gfm](https://github.com/github/cmark-gfm), But no
 
 When running cmake, dependencies will downloaded automatically.
 
-### Install Dependencies and Build
-```sh
-sh ./build.sh
-```
-
-Or you can build manually.
-
-```sh
-mkdir -p build
-cd build
-cmake ..
-make
-```
-
 ## How to use
 
 Use stdio with pipelining 
