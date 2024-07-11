@@ -2,6 +2,7 @@
 #include <string>
 #include <cstdlib>
 #include <cerrno>
+#include <cstring>
 
 #include <cmark-gfm.h>
 

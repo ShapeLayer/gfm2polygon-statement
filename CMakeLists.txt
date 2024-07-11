@@ -23,8 +23,9 @@ set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "${CMAKE_BINARY_DIR}/cmark-gfm/instal
 include_directories(${CMAKE_SOURCE_DIR}/cmark-gfm/src)
 include_directories(${CMAKE_SOURCE_DIR}/cmark-gfm/build/src)
 include_directories(${CMAKE_SOURCE_DIR}/cmark-gfm/extensions)
+
 include_directories(${CMAKE_SOURCE_DIR}/install/include)
-include_directories(${CMAKE_SOURCE_DIR}/install/lib)
+link_directories(${CMAKE_SOURCE_DIR}/install/lib)
 
 add_executable(${PROGRAM} ${PROGRAM_SOURCES})
 
