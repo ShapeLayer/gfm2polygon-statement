@@ -1,9 +1,6 @@
 # gfm2polygon-statement
 
-[WIP] Converts GFM to Limited LaTeX Format for Codeforces Polygon Statement
-
-> [!CAUTION]
-> This project is a work in progress.
+Converts GFM to Limited LaTeX Format for Codeforces Polygon Statement
 
 ## Getting Started
 
